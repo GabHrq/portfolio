@@ -1,0 +1,35 @@
+/* Semântica */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+/* Classes */
+
+.container {
+    display: block;
+    margin: 0 12rem;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+    }
+}
+
+.l, .r {
+    display: flex;
+}
+
+
+/* IDs */
