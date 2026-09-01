@@ -13,3 +13,5 @@ def get_locale():
 
 babel = Babel(app, locale_selector=get_locale)
 from . import routes
+
+app.run(debug=True)

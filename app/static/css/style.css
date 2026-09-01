@@ -10,6 +10,11 @@
 body {
 }
 
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
 /* Classes */
 
 .container {
@@ -18,7 +23,7 @@ body {
 }
 
 nav .container {
-    display: flex;
+    display: none;
     justify-content: space-between;
 
     ul {
@@ -31,5 +36,28 @@ nav .container {
     display: flex;
 }
 
-
 /* IDs */
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: inherit;
+    height: inherit;
+}
+
+#fn {
+    text-transform: uppercase;
+}
+
+#arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
